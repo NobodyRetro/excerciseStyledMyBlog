@@ -1,0 +1,101 @@
+.pallet {
+  color: #8d44be; /* Purpureus */
+  color: #fcf5e5; /* Cosmic Latte */
+  color: #1f1f20; /* Eerie Black */
+  color: #5a5a5a; /* Davy's Gray */
+  color: #f0c866; /* Saffron */
+}
+
+body {
+  background-color: #5a5a5a;
+}
+
+hr {
+  color: #8d44be;
+}
+
+nav {
+  background-color: #1f1f20;
+  color: #5a5a5a;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  margin-top: 25px;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+h2,
+h3 {
+  font-family: "Danfo", serif;
+  text-shadow: 1px 1px 1px #1f1f20;
+  color: #f0c866;
+}
+
+section {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.purpose {
+  background-color: #1f1f20;
+  color: #8d44be;
+  border: 1px solid #f0c866;
+  padding: 10px;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 100px;
+  width: 250px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+footer,
+.signInClass {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcf5e5;
+}
+
+input {
+  border-radius: 5px;
+  background-color: #1f1f20;
+  color: #f0c866;
+  margin: 2px;
+}
+
+input:focus {
+  border: 2px solid #8d44be;
+  outline: none;
+}
+
+button {
+  font-family: "Danfo", serif;
+  border-radius: 5px;
+  color: #f0c866;
+  background-color: #1f1f20;
+  padding: 5px;
+  width: 246px;
+  margin-top: 5px;
+}
